@@ -1,0 +1,17 @@
+{
+  "include": ["src", "hello","onemore.ts"],
+  "compilerOptions": {
+      "module": "commonjs",
+      "declaration": true,
+      "outDir": "dist",
+      "target": "ES5",
+      "moduleResolution": "Node",
+      "noUnusedParameters": false,
+      "noUnusedLocals": false,
+      "noImplicitAny": true,
+      "noImplicitThis": true,
+      "strictNullChecks": true, // strictNullChecks is enabled it checks for null and undefined values in the code and throws an error if it finds any.
+      "noUncheckedIndexedAccess": true
+  }
+}
+
