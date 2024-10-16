@@ -1,3 +1,4 @@
+"use strict";
 // Intent of the developer is two numbers are added and the result is returned.
 var addTwoNumbers = function (number1, number2) {
     return number1 + number2;

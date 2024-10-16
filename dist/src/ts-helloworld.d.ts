@@ -33,10 +33,10 @@ declare const success: readonly ["success", {
 }];
 declare const failure: readonly ["failure", Error];
 declare function tossingACoin(): (typeof success | typeof failure);
-declare const first: "success" | "failure", second: {
+declare const first: "success" | "failure", second: Error | {
     readonly name: "Rahul Chhabra";
     readonly age: 23;
-} | Error;
+};
 type Car = {
     make: string;
     model: string;

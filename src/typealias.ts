@@ -74,6 +74,8 @@ console.log(someRandomThingThree)
 
 type Combinable2 = { name : string } & { name : number };
 
+let plu : never = 10 as any as never;
+console.log(plu);
 // never type
 // let someRandomThingFour : Combinable2 = { name : 'Rahul' }
 

@@ -24,10 +24,10 @@ console.log(ans.split(' '))
 
 
 
-let valueof = undefined ?? `Hello`;
-console.log(valueof)
-valueof = null ?? `Hello`;
-console.log(valueof)
+// let valueof = undefined ?? `Hello`;
+// console.log(valueof)
+// // valueof = null ?? `Hello`;
+// console.log(valueof)
 
 
 type T00 = unknown & null; // null

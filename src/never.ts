@@ -30,4 +30,26 @@ randomUnknownType
 // let random : never;
 // random = () => 10;
 
-let acbd = { age : 10 } as { name  : string, age : number };
+let acbd = { name : 'as', age : 10, firstName : 'as', lastName : '10'} as { name  : string, age : number };
+
+const p1 = "Hello" as any as number;
+console.log(p1)
+
+let example : "Hello" = "hello" as "Hello";
+
+function myFunc() : unknown {
+    return { name : 'Rahul' }
+}
+
+
+function compare(a : string, b : string) : number {
+    if(a < b) {
+        return -1;
+    } else if(a > b) {
+        return 1;
+    } else {
+        return 0;
+    }
+
+}   
+;

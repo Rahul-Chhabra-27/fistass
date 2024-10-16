@@ -1,3 +1,4 @@
+"use strict";
 // Type Alias is a way to give a type a name
 var groupOne = {
     name: 'Losers',

@@ -5,6 +5,7 @@
       "declaration": true,
       "outDir": "dist",
       "target": "ES5",
+      "strict": true,
       "moduleResolution": "Node",
       "noUnusedParameters": false,
       "noUnusedLocals": false,

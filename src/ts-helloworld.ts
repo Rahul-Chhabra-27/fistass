@@ -138,3 +138,7 @@ function carsTesting (car:Car, testingKit: TestingTemplate) : TestingMessage {
     return "Testing Passed";
 }
 console.log(carsTesting({make:"Toyota", model:"truck", year:2021, fuelType:"electric"}, {engineTesting, typesTesting, fuelTesting}));
+
+
+
+const pl = "Hello" as any as number;

@@ -1,3 +1,4 @@
+"use strict";
 var form = { userName: 'Rahul', password: 'password' };
 var form2 = { email: 'chhabra@mail.com', userPassword: 'password' };
 function add(a, b) {
@@ -11,10 +12,6 @@ function add(a, b) {
 // console.log((ans as string).split(' '))
 var ans = add('Rahul', 'Chhabra');
 console.log(ans.split(' '));
-var valueof = undefined !== null && undefined !== void 0 ? undefined : "Hello";
-console.log(valueof);
-valueof = null !== null && null !== void 0 ? null : "Hello";
-console.log(valueof);
 var p = 10;
 var q = 20;
 // p = q; will work
